@@ -69,7 +69,7 @@ public class Main {
         }
 
 
-        System.out.println("Задание 6");
+        System.out.println("Задание 6!");
         int seating = 60;
         int general = 102;
         int standing = general - seating;
@@ -81,7 +81,7 @@ public class Main {
         } else System.out.println("Вагон полностью забит");
 
 
-        System.out.println("Задание 7");
+        System.out.println("Задание 7!");
         int one = 1;
         int two = 4;
         int three = 3;
