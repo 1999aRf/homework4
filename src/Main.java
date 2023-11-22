@@ -8,20 +8,16 @@ public class Main {
         if (year >= 18) {
             System.out.println("Если возраст человека равен " + year + ", то он совершеннолетний");
         }
-        if (secYear < 18) {
-            System.out.println("Если возраст человека равен " + secYear + ", то он несовершеннолетний");
-        }
+        else System.out.println("Если возраст человека равен " + secYear + ", то он несовершеннолетний");
 
 
         System.out.println("Задание 2");
         int temperature1 = 1;
         int temperature2 = 8;
-        if (temperature1 < 5) {
+        if (temperature1 <= 5) {
             System.out.println("На улице " + temperature1 + " градус, нужно надеть шапку");
         }
-        if (temperature2 > 5) {
-            System.out.println("На улице " + temperature2 + " градусов, можно идти без шапки");
-        }
+        else System.out.println("На улице " + temperature2 + " градусов, можно идти без шапки");
 
 
         System.out.println("Задание 3");
@@ -30,9 +26,7 @@ public class Main {
         if (speed1 > 60) {
             System.out.println("Если скорость " + speed1 + ", то придется заплатить штраф");
         }
-        if (speed2 < 60) {
-            System.out.println("Если скорость " + speed2 + ", то можно ездить спокойно");
-        }
+        else System.out.println("Если скорость " + speed2 + ", то можно ездить спокойно");
 
 
         System.out.println("Задание 4");
@@ -43,13 +37,13 @@ public class Main {
         if (person1 >= 2 && person1 <= 6) {
             System.out.println("Если возраст человека равен " + person1 + ", то ему нужно ходить в детский сад");
         }
-        if (person2 >= 7 && person2 <= 17) {
+        else if (person2 >= 7 && person2 <= 17) {
             System.out.println("Если возраст человека равен " + person2 + ", то ему нужно ходить в школу");
         }
-        if (person3 >= 18 && person3 <= 24) {
+        else if (person3 >= 18 && person3 <= 24) {
             System.out.println("Если возраст человека равен " + person3 + ", то ему нужно ходить в университет");
         }
-        if (person4 >= 24) {
+        else {
             System.out.println("Если возраст человека равен " + person4 + ", то ему нужно ходить на работу");
         }
 
@@ -61,12 +55,13 @@ public class Main {
         if (child1 < 5) {
             System.out.println("Если возраст ребенка равен " + child1 + ", то ему нельзя кататься на аттракционе");
         }
-        if (child2 >= 5 && child2 < 14) {
+        else if (child2 >= 5 && child2 < 14) {
             System.out.println("Если возраст ребенка равен " + child2 + ", то ему можно кататься на аттракционе в сопровождении взрослого");
         }
-        if (child3 >= 14) {
+        else {
             System.out.println("Если возраст ребенка равен " + child3 + ", то ему можно кататься на аттракционе без сопровождения взрослого");
         }
+
 
 
         System.out.println("Задание 6!");
